@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Arsath M — Cloud/DevOps Engineer</title>
+<meta name="description" content="Portfolio of Mohamed Arsath M, B.Sc. Computer Science graduate and aspiring AWS cloud engineer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="#top" class="logo"><span class="dot"></span>Mohamed Arsath's Portfolio</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul id="navList">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#education">education</a></li>
+      <li><a href="#contact">contact</a></li>
+      <li class="nav-social">
+        <a href="https://www.linkedin.com/in/mohamed-arsath-m-74a3bb293/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="https://github.com/arsath134" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.2C22 6.58 17.52 2 12 2z"/></svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <div class="eyebrow">whoami</div>
+      <h1>Mohamed Arsath M —<br><span id="typed"></span><span class="cursor" id="typeCursor"></span></h1>
+      <p class="hero-lead">B.Sc. Computer Science graduate building on <code>AWS</code> and <code>DevOps</code> tooling. Hands-on with EC2, Lambda, VPC, DynamoDB, Docker and event-driven architectures — six shipped projects, zero fear of a console.</p>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn-primary">View projects →</a>
+      </div>
+      <div class="hero-meta">
+        <span><strong>Location:</strong>&nbsp;Madurai, India</span>
+        <span><strong>Status:</strong>&nbsp;Open to opportunities</span>
+        <span><strong>Focus:</strong>&nbsp;Cloud &amp; DevOps</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="term-card">
+        <div class="term-bar">
+          <div class="term-dot"></div><div class="term-dot"></div><div class="term-dot"></div>
+          <span>profile.jpg</span>
+        </div>
+        <div class="term-photo">
+          <img src="assets/profile.jpg" alt="Portrait of Mohamed Arsath M">
+          <div class="term-photo-tag">
+            <span class="status"><span class="dot"></span>available</span>
+          </div>
+        </div>
+        <div class="term-foot">
+          <span>Madurai, IN</span>
+          <span><strong>region:</strong> ap-south-1</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <span class="sec-tag">01 · Summary</span>
+          <h2 style="font-family:var(--font-display);font-size:clamp(1.6rem,3vw,2.1rem);font-weight:600;margin-bottom:20px;">About</h2>
+          <p>I graduated with a <strong>B.Sc. in Computer Science</strong> from The American College, Madurai, and spent my final year building real infrastructure instead of just reading about it — event-driven alert pipelines, multi-tier web apps on a VPC, serverless APIs, the kind of projects that force you to actually understand IAM, not just enable it.</p>
+          <p>I work comfortably across <strong>EC2, VPC, S3, Lambda, DynamoDB, RDS, IAM, ALB, SNS, SQS, EventBridge, API Gateway and CloudWatch</strong>, backed by <strong>Docker, Jenkins, Git</strong>, Python, Linux and core networking concepts. I'm currently looking for an entry-level <strong>Cloud/DevOps Engineer</strong> role where I can keep building — and start breaking things in production, on purpose.</p>
+        </div>
+        <div class="stat-list reveal">
+          <div class="stat"><span class="num">6</span><span class="label">AWS projects shipped</span></div>
+          <div class="stat"><span class="num">14+</span><span class="label">AWS services used</span></div>
+          <div class="stat"><span class="num">2025</span><span class="label">Graduated, B.Sc CS</span></div>
+          <div class="stat"><span class="num">6</span><span class="label">Certifications &amp; internships</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">02 · Stack</span>
+        <h2>Skills</h2>
+        <p>Cloud-first, with the fundamentals to back it up.</p>
+      </div>
+      <div class="skill-groups reveal">
+        <div class="skill-group">
+          <div class="skill-group-name">AWS Cloud</div>
+          <div class="chip-row" id="chips-aws"></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-name">Languages</div>
+          <div class="chip-row" id="chips-lang"></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-name">DevOps &amp; CI/CD</div>
+          <div class="chip-row" id="chips-devops"></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-name">Systems &amp; Networking</div>
+          <div class="chip-row" id="chips-sys"></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-name">Web &amp; Databases</div>
+          <div class="chip-row" id="chips-web"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">03 · Build log</span>
+        <h2>Projects</h2>
+        <p>Six architectures, laid out the way I sketch them before I build — as a flow.</p>
+      </div>
+      <div id="projectList"></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / CERTS -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">04 · Track record</span>
+        <h2>Experience &amp; certifications</h2>
+        <p>Internship, simulations and coursework — in order.</p>
+      </div>
+      <div class="timeline reveal" id="timelineList"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION + MISC -->
+  <section class="section" id="education">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">05 · Foundation</span>
+        <h2>Education</h2>
+      </div>
+      <div class="edu-card reveal">
+        <div>
+          <h3>B.Sc. Computer Science</h3>
+          <p>The American College, Madurai · April 2022 – May 2025</p>
+        </div>
+        <div class="edu-cgpa">
+          <span class="num">6.0</span>
+          <span class="label">CGPA</span>
+        </div>
+      </div>
+      <div class="misc-grid reveal">
+        <div class="misc-card">
+          <h4>Languages</h4>
+          <div class="misc-list">
+            <span><strong>English</strong> — Proficient</span>
+            <span><strong>Tamil</strong> — Native</span>
+          </div>
+        </div>
+        <div class="misc-card">
+          <h4>Outside the console</h4>
+          <div class="misc-list">
+            <span>Photo editing</span>
+            <span>Video editing</span>
+            <span>Learning new technologies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-panel reveal">
+        <div class="eyebrow">contact --send</div>
+        <h2>Let's build something in the cloud.</h2>
+        <p>Open to cloud engineering roles, internships and anything that involves a diagram with more than three arrows. Reach out — I reply fast.</p>
+        <div class="contact-links">
+          <a href="mailto:mohamedarsath.ii000@gmail.com" class="btn btn-primary">mohamedarsath.ii000@gmail.com</a>
+          <a href="tel:+916383499451" class="btn btn-ghost">+91 63834 99451</a>
+          <a href="https://www.linkedin.com/in/mohamed-arsath-m-74a3bb293/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+          <a href="https://github.com/arsath134" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="prompt">$</span> echo "thanks for scrolling" · Madurai, India · built with an actual console in mind
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
